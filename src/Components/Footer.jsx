@@ -1,16 +1,12 @@
 import React from "react";
-import styled from "styled-components"
+import StyledFooter from "../Styles/Footer";
 
-const ContentProvider = styled.footer`
-display:flex;
-flex-direction:column;
-align-items:center;
-justify-content:center;
-height:10vh;
-width:100%;
-background-color:#000;
-color:#fff;
-bottom: 0
-`;
+const Footer = (props)=>{
+    return(
+        <StyledFooter>
+            {props.children}
+        </StyledFooter>
+    )
+}
 
-export default ContentProvider
+export default Footer;

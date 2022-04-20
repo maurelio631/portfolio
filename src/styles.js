@@ -1,11 +1,11 @@
-import styled from "styled-components";
+import {styled, createGlobalStyle} from "styled-components";
+import { createGlobalStyle } from "styled-components";
 
-const Wrapper = styled.div`
-display: flex;
-background-color:red;
-height: 100vh;
-width:100%
-justify-content:center
+const globalStyle = createGlobalStyle`
+    body{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family:Poppins, sans-serif;
+    }
 `;
-
-export default Wrapper

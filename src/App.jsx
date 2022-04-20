@@ -1,14 +1,13 @@
 import React from 'react'
-import ContentProvider from '../src/Components/Wrapper';
 import Footer from '../src/Components/Footer'
 
 
 function App() {
   return (
-    <ContentProvider>
+    <div>
       <h1>Testando</h1>
-      <Footer></Footer>
-    </ContentProvider>
+      <Footer>Teste</Footer>
+    </div>
   )
 }
 
