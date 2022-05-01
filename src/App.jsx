@@ -1,13 +1,10 @@
 import React from 'react'
-import Footer from '../src/Components/Footer'
-
+import { Container, Flex, Theme } from '@chakra-ui/react';
+import "./Styles/App.module.css"
 
 function App() {
   return (
-    <div>
-      <h1>Testando</h1>
-      <Footer>Teste</Footer>
-    </div>
+    <div></div>
   )
 }
 
