@@ -1,10 +1,10 @@
 import React from 'react'
-import { Container, Flex, Theme } from '@chakra-ui/react';
+import Navbar from './Components/Navbar'
 import "./Styles/App.module.css"
 
 function App() {
   return (
-    <div></div>
+    <Navbar/>
   )
 }
 
